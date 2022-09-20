@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{:c}".format(i), end='')
+number = 97
+while number < 123:
+    print("{:s}".format(chr(number)), end='')
+    number += 1
