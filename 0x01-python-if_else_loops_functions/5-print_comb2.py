@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-while number <= 99:
-    if number != 99:
-        print("{:02d}, ".format(number), end='')
-    else:
-        print("{:02d}".format(number))
-
-    number = number + 1
+for i in range(0, 10):
+    for j in range(i + 1, 10):
+        print('{:d}{:d}'.format(i, j), '\n' if (i == 8 and j == 9) else ', ',
+              sep='', end='')
