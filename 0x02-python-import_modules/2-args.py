@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-
     import sys
-
     i = len(sys.argv) - 1
-
-
 
     if i == 0:
 
@@ -18,8 +14,6 @@ if __name__ == "__main__":
     else:
 
         print("{} arguments:".format(i))
-
-
 
     if i >= 1:
 
