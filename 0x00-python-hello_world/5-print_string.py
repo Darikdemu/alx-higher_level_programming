@@ -1,3 +1,4 @@
-#1/usr/bin/python3
-str = "a software development program"
-print(str * 3, '\n', '{:.9}'.format(str), sep='')
+#!/usr/bin/python3
+str = "Holberton School"
+print(str * 3)
+print(str[:9])
