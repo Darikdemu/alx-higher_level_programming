@@ -1,4 +1,3 @@
 #!/usr/bin/pyhon3
 def search_replace(my_list, search, replace):
-    rep = [replace if search == n else n for n in my_list]
-    return(x)
+    return (list(map(lambda x: replace if x is search else x, my_list)))
