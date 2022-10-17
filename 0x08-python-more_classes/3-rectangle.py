@@ -1,23 +1,18 @@
 #!/usr/bin/python3
 """
 module 3-rectangle
-
 Defines a Rectangle class.
-
 """
 
 class Rectangle:
     """Rectangle class defined by width and height."""
     def __init__(self, width=0, height=0):
-
         """Initializes a Rectangle instance
         Args:
             width: width of the rectangle
             height: height of the rectangle
-
         """
         self.width = width
-
         self.height = height
 
     def __str__(self):
@@ -31,6 +26,7 @@ class Rectangle:
                 rec_str += '#'
             rec_str += '\n'
         return rec_str[:-1]
+    
     @property
 
     def width(self):
@@ -57,7 +53,6 @@ class Rectangle:
         return self.__height
 
     @height.setter
-
     def height(self, value):
         """Sets the height of a Rectangle instance
         Args:
