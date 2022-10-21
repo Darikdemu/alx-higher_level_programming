@@ -1,14 +1,18 @@
-"""say_my_name module """
-
-def say_my_name(prmFirstName, prmLastName=""):
-    """ say_my_name function
-    this function concatenated first name and last name and print the result
-    Attributes:
-        prmFirstName: first name
-        prmLastName: last name
+#!/usr/bin/python3
+"""say_my_name module.
+Define say_my_name function.
+"""
+def say_my_name(first_name, last_name=""):
+    """Print "My name is " and two strings.
+    first_name(str): the first string to print.
+    last_name(str)(default=""): the second string to print.
     """
-    if not isinstance(prmFirstName, str):
+    if first_name is None:
+        first_name = ""
+    if last_name is None:
+        last_name = ""
+    if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
-    if not isinstance(prmLastName, str):
+    if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
-    print("My name is {} {}".format(prmFirstName, prmLastName))
+    print("My name is {} {}".format(first_name, last_name))

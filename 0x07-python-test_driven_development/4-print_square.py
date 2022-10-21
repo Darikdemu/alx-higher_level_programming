@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 """prints_square module """
 def print_square(prmSize):
     """ print_square function
