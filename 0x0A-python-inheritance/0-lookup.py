@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-"""contains the lookup function
-"""
 
+"""
+contains the lookup function
+"""
 
 
 def lookup(obj):
