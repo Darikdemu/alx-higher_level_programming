@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-
-
-"""s is the documentation for this module. Just read a filename, and
-write its content into the stdout"""
+"""0_read_file Module """
 
 
 def read_file(filename=""):
-    with open(filename, 'r') as f:
-        for i in f:
-            print("{}".format(i), end="")
+    """ function to read and print a file """
+    with open(filename, encoding="utf-8") as f:
+        print(f.read(), end="")
