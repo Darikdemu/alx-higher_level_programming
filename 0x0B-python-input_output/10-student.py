@@ -11,7 +11,6 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-
     def to_json(self, attrs=None):
         """
         Retrieves a dictionary representation of
@@ -20,8 +19,6 @@ class Student:
         dict = vars(self)
         if attrs is None:
             return dict
-
-
         studentInfo = {}
         for item in attrs:
             if item in dict:

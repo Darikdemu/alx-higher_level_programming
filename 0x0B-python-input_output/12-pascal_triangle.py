@@ -11,14 +11,12 @@ def pascal_triangle(n):
         return []
     pascal = []
 
-
     for i in range(n):
         row = []
         row.append(1)
         for j in range(2, i + 1):
             row.append(0)
         pascal.append(row)
-
 
     prev = pascal[0]
     for i in range(1, n):

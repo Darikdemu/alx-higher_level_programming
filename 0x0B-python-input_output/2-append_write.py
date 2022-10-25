@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ 2-append_write Module """
 
+
 def append_write(filename="", text=""):
     """
     Function that writes a string to the end of a
