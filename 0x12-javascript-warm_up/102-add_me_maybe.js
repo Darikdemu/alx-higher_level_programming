@@ -1,4 +1,4 @@
 #!/usr/bin/node
-rts.addMeMaybe = function (x, theFunction) {
+exports.addMeMaybe = function (x, theFunction) {
   return x + theFunction(x + 1);
 };
