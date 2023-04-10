@@ -1,3 +1,3 @@
 #!/usr/bin/node
-myVar = 'javaScript is amazing'
+myVar = 'javascript is amazing'
 console.log(myvar);
