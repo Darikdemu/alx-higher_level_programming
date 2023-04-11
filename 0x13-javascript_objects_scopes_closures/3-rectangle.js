@@ -9,5 +9,5 @@ class Rectangle {
       console.log('X'.repeat(this.width));
     }
   }
-};
+}
 module.exports = Rectangle;
