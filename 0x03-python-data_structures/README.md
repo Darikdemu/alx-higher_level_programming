@@ -1,1 +1,1 @@
-python - Data Structures: Lists, Tuples project @alx
+Javascript - Objects, Scopes and Closures
