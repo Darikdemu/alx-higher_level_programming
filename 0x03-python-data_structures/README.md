@@ -1,1 +1,1 @@
-Javascript - Objects, Scopes and Closures
+python is cool`
